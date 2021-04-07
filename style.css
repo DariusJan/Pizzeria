@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background: linear-gradient(to bottom right, #67b26f, #4ca2cd);
+  color: #444;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+header h1 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+header form {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+section h1 {
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+}
+
+form > * {
+  margin-bottom: 10px;
+  outline: none;
+  font-size: 25px;
+  border: 1px solid #777;
+  border-radius: 3px;
+}
+
+form button {
+  color: black;
+  background-color: rgb(200, 200, 200);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+form button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.content {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  border: none;
+}
+
+#order-id {
+  font-size: 40px;
+}
+#order-name {
+  text-align: center;
+  font-size: 30px;
+}
+#order-price {
+  text-align: right;
+}
+#order-toppings {
+  padding-bottom: 15px;
+}
+#orders {
+  max-width: 800px;
+  border-radius: 4px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 30px 80px 10px rgba(0, 0, 0, 0.2);
+}
+#images {
+  height: 35px;
+
+  text-align: center;
+  overflow: hidden;
+}
+
+#delete-btn {
+  padding: 8px;
+  margin-top: 5px;
+  background-color: rgb(179, 180, 180);
+  outline: none;
+}
+
+#delete-btn:hover {
+  background-color: rgb(228, 228, 228);
+}
+#add-btn {
+  margin: 10px;
+  padding: 20px;
+}
+img {
+  display: row;
+  height: 35px;
+}
